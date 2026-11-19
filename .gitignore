@@ -1,0 +1,83 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# -------------------------
+# Environments and secrets
+# -------------------------
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Neuroimaging data
+# -------------------------
+# Do not commit raw participant data
+data/
+rawdata/
+sourcedata/
+
+# Preprocessing and analysis outputs
+derivatives/
+outputs/
+results/
+
+# Common neuroimaging files
+*.nii
+*.nii.gz
+*.img
+*.hdr
+*.mnc
+*.mgz
+*.mgh
+*.dcm
+*.dicom
+
+# FreeSurfer outputs
+freesurfer/
+fsaverage/
+SUBJECTS_DIR/
+
+# -------------------------
+# Temporary files and logs
+# -------------------------
+tmp/
+temp/
+*.log
+*.tmp
+*.out
+*.err
+
+# -------------------------
+# OS and editor files
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# Large generated files
+# -------------------------
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
